@@ -1,0 +1,317 @@
+/* Estilos generales para todo el sitio */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50;
+    color: #fff;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #9b59b6;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    margin-top: 80px;
+    padding: 30px;
+    background-color: #34495e;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Formulario de registro y login */
+.login-form-container {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #9b59b6;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8e44ad;
+}
+
+/* Formulario de creación de juegos */
+.game-form-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #34495e;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.game-form-container input,
+.game-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.game-form-container button {
+    background-color: #9b59b6;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game-form-container button:hover {
+    background-color: #8e44ad;
+}
+
+/* Estilos para la lista de juegos */
+.game-list-container {
+    padding: 30px;
+    text-align: center;
+}
+
+.game-item {
+    background-color: #34495e;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-item h3 {
+    margin-bottom: 10px;
+}
+
+.game-item button {
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.game-item button:hover {
+    background-color: #c0392b;
+}
+
+/* Estilos para las preguntas */
+.game-item p {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+/* Botones de acción */
+.cta {
+    background-color: #9b59b6;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.cta:hover {
+    background-color: #8e44ad;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+
+/* Reset y diseño base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c3e50;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Estilo para la barra de navegación */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #9b59b6;
+    padding: 15px 0;
+    z-index: 100;
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos generales para las secciones */
+main {
+    margin-top: 120px;
+    padding: 30px;
+    background-color: #34495e;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Formularios de Registro y Login */
+.login-form-container {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #9b59b6;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8e44ad;
+}
+
+/* Estilo para crear un nuevo juego */
+.game-form-container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #34495e;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.game-form-container input,
+.game-form-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.game-form-container button {
+    background-color: #9b59b6;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game-form-container button:hover {
+    background-color: #8e44ad;
+}
+
+/* Botones CTA */
+.cta {
+    background-color: #9b59b6;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.cta:hover {
+    background-color: #8e44ad;
+}
